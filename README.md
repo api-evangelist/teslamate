@@ -64,5 +64,16 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TeslaMate (self-hosted) is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://github.com/teslamate-org/teslamate
+TeslaMate is an open-source, self‑hosted data logger for Tesla vehicles. It records vehicle telemetry, stores it in a PostgreSQL database, and provides visualisation via Grafana. Written in Elixir, it publishes data to a local MQTT broker and integrates with Home Assistant, Node‑RED, and other smart‑home platforms. The project offers Docker images for easy deployment and supports multiple vehicles per Tesla account, with features like charge cost tracking, address lookup, and extensive multilingual UI.
+
+**Areas:** Company · Open-source · Data Logger · Tesla · Elixir · Docker
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://docs.teslamate.org)
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/teslamate/](https://apis.io/providers/teslamate/).
